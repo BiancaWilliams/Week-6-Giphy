@@ -85,7 +85,7 @@ $(document).ready(function() {
         createTopics();
       }
       else {
-        alert("You didn't enter anything, dum-dum!");
+        alert("Nothing Entered!");
         createTopics();
       }
       $('#userInput').val("");
