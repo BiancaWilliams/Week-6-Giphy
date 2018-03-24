@@ -6,7 +6,7 @@ $(document).ready(function() {
       // Variable for clicked button's value to be passed through the API
   
     var topics = ['Fresh Prince of Bel-air','A Different World','The Cosby Show','Black Lightning', 'Girlfriends', 'Everybody Hates Chris', 'Sister, Sister', 'Family Matters', 'Living Single', 'Queen Sugar'];
-    var url = 'https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=20&q=';
+    var url = 'https://api.giphy.com/v1/gifs/search?api_key=kJUWe7CZLNSCjCYnY9ehXryZEFBBhkPA=';
     
   
     // Create topics from array
@@ -15,8 +15,7 @@ $(document).ready(function() {
       // Start list from scratch to prevent any duplicates
       $(".buttonArea").empty();
       
-      // Loops through array
-      for (var i = 0; i < topics.length; i++) {
+        for (var i = 0; i < topics.length; i++) {
         var a = $("<button>");
         // Adds a class of gif to our button
         a.addClass("gifButton btn btn-lg btn-default btn-block");
